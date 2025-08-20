@@ -22,7 +22,30 @@ The solution performs tasks such as **atmospheric turbulence removal** through p
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/MuthukumarBT/PromptFFTNet.git)
 cd your-repo-name
 
-🛠️ Installation
+## 📥 Dataset
+
+The dataset used for training and testing is available at:
+**TMT Synthetic Dataset** can be downloaded from: 
+[**Download Link**](https://app.box.com/s/d3hsuwobfacr3eftsd0nslcongxlvn15)
+**Heat Chamber Dataset** can be downloaded from:   
+[**Download Link**](https://drive.google.com/file/d/14iVachB95bCCtke8ONPD9CCH20JO75v2/view?usp=sharing)
+
+
+## 🖼️ Example Results
+
+Here are some example results from the model:
+
+| Input Image | Output Image (Restored) |
+|-------------|-------------------------|
+| ![Input](path/to/input_image1.jpg) | ![Output](path/to/output_image1.jpg) |
+| ![Input](path/to/input_image2.jpg) | ![Output](path/to/output_image2.jpg) |
+
+*Images show atmospheric turbulence removal performance on marine/coastal surveillance data.*
+
+---
+
+
+🚀 How to Use
 
 python main.py \
   --cuda 0 \
