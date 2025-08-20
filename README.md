@@ -53,3 +53,9 @@ python main.py \
 | `--tile`         | Whether to use image tiling (for large images)                              |
 | `--tile_size`    | Tile size when tiling is enabled (default: 128)                             |
 | `--tile_overlap` | Amount of overlap between tiles (default: 32)                               |
+
+## 🙏 Acknowledgments
+
+https://github.com/VITA-Group/TurbNet
+https://github.com/xg416/TMT
+This code is based on the [AirNet](https://github.com/XLearning-SCU/2022-CVPR-AirNet) and [Restormer](https://github.com/swz30/Restormer) and [Restormer] (https://github.com/va1shn9v/PromptIR) repositories.
