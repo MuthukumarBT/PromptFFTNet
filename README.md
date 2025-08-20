@@ -30,7 +30,7 @@ The dataset used for training and testing is available at:
 **Heat Chamber Dataset** can be downloaded from:   
 [**Download Link**](https://drive.google.com/file/d/14iVachB95bCCtke8ONPD9CCH20JO75v2/view?usp=sharing)
 
-🚀 How to Use
+## 🚀 How to Run
 
 python main.py \
   --cuda 0 \
