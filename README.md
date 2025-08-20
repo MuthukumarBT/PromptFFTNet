@@ -37,7 +37,7 @@ python main.py \
   --mode 2 \
   --test_path /path/to/test/images/ \
   --output_path ./results/ \
-  --ckpt_name /path/to/PromptFFTNetModel.ckpt \
+  --ckpt_name train_ckpt/PromptFFTNetModel.ckpt \
   --tile False \
   --tile_size 128 \
   --tile_overlap 32
